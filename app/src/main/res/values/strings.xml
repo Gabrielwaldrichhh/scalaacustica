@@ -1,0 +1,8 @@
+<resources>
+    <string name="app_name">Scala Acústica</string>
+    <string name="campo_obrigatorio">Campo Obrigatório</string>
+    <string-array name="itemTipoPessoa">
+        <item >Fisica</item>
+        <item>Juridica</item>
+    </string-array>
+</resources>

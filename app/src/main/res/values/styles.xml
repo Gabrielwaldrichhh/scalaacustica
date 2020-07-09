@@ -1,0 +1,19 @@
+<resources>
+
+    <!-- Base application theme. -->
+    <style name="AppTheme" parent="Theme.MaterialComponents.Light.NoActionBar">
+        <!-- Customize your theme here. -->
+        <item name="colorPrimary">@color/colorPrimary</item>
+        <item name="colorPrimaryDark">@color/colorPrimaryDark</item>
+        <item name="colorAccent">@color/colorAccent</item>>
+        <item name="textInputStyle">@style/caixaDeTexto</item>
+        <item name="autoCompleteTextViewStyle">@style/autoComplete</item>
+    </style>
+
+    <style name="caixaDeTexto" parent="Widget.MaterialComponents.TextInputLayout.OutlinedBox"></style>
+
+    <style name="autoComplete" parent="Widget.AppCompat.AutoCompleteTextView">
+        <item name="android:textSize">14dp</item>
+    </style>
+
+</resources>
